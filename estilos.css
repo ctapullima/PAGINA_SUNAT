@@ -1,0 +1,83 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+body {
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+}
+.iconos {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	background-color: rgb(240, 240, 240);
+	padding: 10px;
+}
+.imagen .icono,
+.imagen .texto {
+	padding: 10px;
+}
+
+.navegador {
+	display: flex;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+.blanco {
+	width: 150px;
+}
+.verde {
+	width: 200px;
+}
+.verde .arriba {
+	background-color: rgb(11, 165, 11);
+	padding: 5px;
+	margin: 0px 2px 2px 0px;
+}
+.verde .abajo {
+	display: flex;
+}
+.verde .abajo .izq,
+.verde .abajo .der {
+	width: 125px;
+	text-align: center;
+	padding: 5px;
+	margin-right: 2px;
+	background-color: rgb(11, 165, 11);
+}
+.azul {
+	width: 250px;
+}
+.azul .arriba {
+	background-color: rgb(63, 10, 185);
+	padding: 5px;
+	margin: 0px 2px 2px 0px;
+}
+.azul .abajo {
+	background-color: rgb(63, 10, 185);
+	padding: 5px;
+	margin: 0px 2px 2px 0px;
+}
+.magenta {
+	width: 450px;
+}
+
+.magenta .arriba {
+	background-color: rgb(112, 10, 70);
+	padding: 5px;
+	margin: 0px 2px 2px 0px;
+}
+.magenta .abajo {
+	display: flex;
+}
+.magenta .abajo .izq,
+.magenta .abajo .der {
+	width: 225px;
+	text-align: center;
+	padding: 5px;
+	margin-right: 2px;
+	background-color: rgb(112, 10, 70);
+}
