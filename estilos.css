@@ -10,10 +10,40 @@ body {
 	margin: auto;
 }
 
+header{
+	display: flex;
+	justify-content: space-between;
+	
+	
+	
+	
+	
+}
+
 /* header */
 #logo img {
-	height: 100px;
+	height: 30px;
+	
+	
+
 }
+
+.link  {
+	display: inline-flex;
+	padding-top: 30px;
+	
+	
+	
+	
+	
+}
+
+.link a {
+	text-decoration: none;
+	font-size: 10px;
+	color: #0062ae;
+}
+
 
 .iconos {
 	display: grid;
@@ -25,8 +55,8 @@ body {
 .imagen .texto {
 	padding: 10px;
 }
-a{
-    color: #0062AE ;
+a {
+	color: #0062ae;
 }
 
 .navegador {
@@ -40,11 +70,11 @@ a{
 }
 .verde {
 	width: 200px;
-    margin-right: 2px;
+	margin-right: 2px;
 }
 .verde .arriba {
-	background-color: rgb(11, 165, 11);
-	padding: 9px ;
+	background-color: #1c9cd9;
+	padding: 9px;
 	margin: 0px 2px 2px 0px;
 }
 .verde .abajo {
@@ -56,28 +86,29 @@ a{
 	text-align: center;
 	padding: 5px;
 	margin-right: 2px;
-	background-color: rgb(11, 165, 11);
+	background-color: #1c9cd9;
 }
 .azul {
 	width: 250px;
-    margin-right: 2px;
+	margin-right: 2px;
 }
-.azul .arriba  {
-	background-color: rgb(63, 10, 185);
+.azul .arriba {
+	background-color: #005cb9;
 	padding: 5px;
 	margin: 0px 2px 2px 0px;
 }
 .azul .abajo {
-	background-color: rgb(63, 10, 185);
+	background-color: #005cb9;
 	padding: 5px;
 	margin: 0px 2px 2px 0px;
 }
+
 .magenta {
 	width: 450px;
 }
 
 .magenta .arriba {
-	background-color: rgb(112, 10, 70);
+	background-color: #ab1542;
 	padding: 9px;
 	margin: 0px 2px 2px 0px;
 }
@@ -90,5 +121,5 @@ a{
 	text-align: center;
 	padding: 1px;
 	margin-right: 2px;
-	background-color: rgb(112, 10, 70);
+	background-color: #ab1542;
 }
