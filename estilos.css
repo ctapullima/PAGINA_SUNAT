@@ -94,6 +94,33 @@ header {
 	color: #0062ae;
 }
 
+
+.nave {
+	width: 350px;
+	margin-left: 400px;
+	
+	
+	
+}
+.centro {
+	padding: 2px;
+	display: flex;
+	
+}
+
+
+.centro .izq,
+.centro .cent,
+.centro  .der {
+	width: 125px;
+	text-align: center;
+	padding: 15px;
+	margin-right: 3px;
+	padding-top: 15px;
+	color: white;
+	background-color: #A7A7A7;
+}
+
 .iconos {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
@@ -107,3 +134,5 @@ header {
 a {
 	color: #0062ae;
 }
+
+
