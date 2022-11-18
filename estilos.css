@@ -94,32 +94,46 @@ header {
 	color: #0062ae;
 }
 
-
 .nave {
-	width: 350px;
+	width: 450px;
 	margin-left: 400px;
-	
-	
-	
 }
 .centro {
-	padding: 2px;
+	padding: 1px;
 	display: flex;
-	
+	padding-bottom: 0px;
 }
-
 
 .centro .izq,
 .centro .cent,
-.centro  .der {
-	width: 125px;
+.centro .der {
+	width: 300px;
 	text-align: center;
-	padding: 15px;
+	padding: 1px;
 	margin-right: 3px;
 	padding-top: 15px;
 	color: white;
-	background-color: #A7A7A7;
+	background-color: #a7a7a7;
 }
+
+.divOpcionSeparador {
+	height: 3px;
+	width: 100%;
+	background-color: #ffb612;
+	padding-top: 2px;
+}
+
+/* .glyphicon-menu-down {
+	color: black;
+	
+}
+
+.glyphicon {
+	position: relative;
+	top: 1px;
+	font-weight: 400;
+	line-height: 1;
+}  */
 
 .iconos {
 	display: grid;
@@ -127,6 +141,7 @@ header {
 	background-color: rgb(240, 240, 240);
 	padding: 10px;
 }
+
 .imagen .icono,
 .imagen .texto {
 	padding: 10px;
@@ -134,5 +149,3 @@ header {
 a {
 	color: #0062ae;
 }
-
-
