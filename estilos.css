@@ -176,7 +176,6 @@ header {
 	background-color: #0063ae;
 	color: #fff;
 	border: solid 1px;
-
 	position: absolute;
 	top: 228px;
 	right: 505px;
@@ -185,6 +184,26 @@ header {
 	padding-left: 5px;
 	padding-right: 5px;
 	outline: none;
+}
+
+h4 {
+	display: flex;
+	font-size: 17px;
+	padding-top: 55px;
+	margin-block-start: 1.33em;
+	margin-block-end: 1.33em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	color: #004586;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.divTituloSeccion {
+	border-bottom: 1px solid #ffb612;
+	margin-bottom: 20px;
+	border-left: 20px solid #fff;
+	border-right: 20px solid #fff;
+	padding: 0px;
 }
 
 .iconos {
@@ -196,6 +215,7 @@ header {
 
 .iconos :hover {
 	color: blue;
+	text-decoration: none;
 }
 
 .imagen .icono,
@@ -205,5 +225,4 @@ header {
 a {
 	color: #0062ae;
 	font-size: 13px;
-	text-decoration: none;
 }
