@@ -3,7 +3,9 @@
 	padding: 0px;
 	text-align: center;
 }
-
+html {
+	scroll-behavior: smooth;
+}
 body {
 	width: 90%;
 	max-width: 1200px;
@@ -186,7 +188,7 @@ header {
 	outline: none;
 }
 
-h4 {
+.hola {
 	display: flex;
 	font-size: 17px;
 	padding-top: 55px;
@@ -215,7 +217,7 @@ h4 {
 
 .iconos :hover {
 	color: blue;
-	text-decoration: none;
+	/* 	text-decoration: none; */
 }
 
 .imagen .icono,
@@ -225,4 +227,32 @@ h4 {
 a {
 	color: #0062ae;
 	font-size: 13px;
+}
+#footerBarraLinks {
+	padding: 15px 0;
+}
+.backPlomo3 {
+	background-color: #a7a7a7;
+}
+.backPlomo3 a {
+	color: #fff;
+}
+/* footer 2 azul */
+#footerLinks {
+	padding-left: 110px;
+	padding-top: 50px;
+	font-size: 12px;
+}
+
+.colBlanco {
+	color: #fff;
+}
+h4 {
+	font-size: 15px;
+	color: #fff;
+}
+
+.backAzul1 {
+	background-color: #0063ae;
+	color: #fff;
 }
