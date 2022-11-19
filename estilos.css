@@ -8,14 +8,13 @@ body {
 	width: 90%;
 	max-width: 1200px;
 	margin: auto;
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .navegador {
 	display: flex;
 	color: white;
 	font-weight: bold;
 	font-size: 15px;
-	
 }
 .blanco {
 	width: 150px;
@@ -23,7 +22,6 @@ body {
 .verde {
 	width: 220px;
 	margin-right: 2px;
-	
 }
 .verde .arriba {
 	background-color: #1c9cd9;
@@ -88,26 +86,26 @@ header {
 	height: 85px;
 	padding-left: 10px;
 	padding-top: 10px;
-	
-	
 }
 
 .link {
 	display: inline-flex;
 	padding-top: 30px;
 	padding-right: 10px;
-	
 }
-.one{
+.one {
 	padding-right: 10px;
 }
-
-
 
 .link a {
 	text-decoration: none;
 	font-size: 13px;
 	color: #0062ae;
+}
+
+.link .one a:hover {
+	color: blue;
+
 }
 
 .nave {
@@ -116,7 +114,7 @@ header {
 }
 .centro {
 	padding: 1px;
-	display: flex;;
+	display: flex;
 }
 
 .centro .izq,
@@ -124,25 +122,30 @@ header {
 .centro .der {
 	width: 150px;
 	text-align: center;
-	padding:15px;
+	padding: 15px;
 	margin-right: 3px;
 	padding-top: 9px;
 	padding-bottom: 3px;
 	color: white;
 	background-color: #a7a7a7;
-
 }
 
+.centro .izq:hover,
+.centro .cent:hover,
+.centro .der:hover {
+	background-color: #005cb9;
+}
 
-.per{
+.per {
 	padding-bottom: 10px;
-	
 }
 
-.per .list__arrow{
-	position: relative;	
+.per .list__arrow {
+	position: relative;
 	top: 5px;
-
+}
+.list__arrow:hover {
+	background: #ffb612;
 }
 
 .divOpcionSeparador {
@@ -150,9 +153,7 @@ header {
 	width: 150px;
 	background-color: #ffb612;
 	padding-top: 1px;
-
 }
-
 
 .iconos {
 	display: grid;
